@@ -7,7 +7,7 @@ import Gallery from './Components/Gallery';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
 import FAQs from './Components/FAQ';
-import './Styles.css'; // Import the CSS file
+import './Components/Styles.css'; // Import the CSS file
 
 const App = () => {
   return (
