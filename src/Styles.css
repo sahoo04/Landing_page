@@ -1,0 +1,298 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  #home {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  #home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #home h1 {
+    font-size: 2.25rem; /* Tailwind text-4xl */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 1rem; /* Tailwind mb-4 */
+  }
+  
+  #home p {
+    font-size: 1.25rem; /* Tailwind text-xl */
+    margin-bottom: 2rem; /* Tailwind mb-8 */
+  }
+  
+  #home button {
+    background-color: #10b981; /* Tailwind bg-green-500 */
+    color: #ffffff; /* Tailwind text-white */
+    padding: 0.75rem 1.5rem; /* Tailwind px-6 py-3 */
+    border-radius: 9999px; /* Tailwind rounded-full */
+    font-size: 1.125rem; /* Tailwind text-lg */
+    font-weight: 600; /* Tailwind font-semibold */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  #home button:hover {
+    background-color: #059669; /* Tailwind hover:bg-green-600 */
+    transform: scale(1.05);
+  }
+  
+  #home button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Benefits Section Styles */
+  #benefits {
+    padding-top: 5rem; /* Tailwind py-20 */
+    padding-bottom: 5rem; /* Tailwind py-20 */
+    background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+  }
+  
+  #benefits h2 {
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 3rem; /* Tailwind mb-12 */
+  }
+  
+  #benefits .benefit-card {
+    background-color: #ffffff; /* Tailwind bg-white */
+    padding: 1.5rem; /* Tailwind p-6 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-md */
+    text-align: center;
+  }
+  
+  #benefits h3 {
+    font-size: 1.25rem; /* Tailwind text-xl */
+    font-weight: 600; /* Tailwind font-semibold */
+    margin-top: 1rem; /* Tailwind mt-4 */
+    margin-bottom: 0.5rem; /* Tailwind mb-2 */
+  }
+  
+  #benefits p {
+    color: #4b5563; /* Tailwind text-gray-600 */
+  }
+  
+  /* Mission Section Styles */
+  #mission {
+    padding-top: 5rem; /* Tailwind py-20 */
+    padding-bottom: 5rem; /* Tailwind py-20 */
+    background: linear-gradient(135deg, #70c218, #05836e); /* Gradient from dark green to teal */
+    color: #ffffff; /* Tailwind text-white */
+  }
+  
+  #mission h2 {
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 1.5rem; /* Tailwind mb-6 */
+  }
+  
+  #mission p {
+    font-size: 1.125rem; /* Tailwind text-lg */
+    margin-bottom: 2rem; /* Tailwind mb-8 */
+  }
+  
+  #mission button { 
+     background: linear-gradient(135deg, #70c218, #05836e); /* Gradient from dark green to teal */
+    color: #065f46; /* Tailwind text-green-800 */
+    padding: 0.75rem 1.5rem; /* Tailwind px-6 py-3 */
+    border-radius: 9999px; /* Tailwind rounded-full */
+    font-size: 1.125rem; /* Tailwind text-lg */
+    font-weight: 600; /* Tailwind font-semibold */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  #mission button:hover {
+    background: linear-gradient(135deg, #70c218, #05836e); /* Gradient from dark green to teal */
+    transform: scale(1.05);
+  }
+  
+  #mission button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Gallery Section Styles */
+  #gallery {
+    padding-top: 5rem; /* Tailwind py-20 */
+    padding-bottom: 5rem; /* Tailwind py-20 */
+    background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+  }
+  
+  #gallery h2 {
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 3rem; /* Tailwind mb-12 */
+  }
+  
+  #gallery .gallery-item {
+    overflow: hidden;
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind shadow-md */
+    transition: transform 0.3s;
+  }
+  
+  #gallery .gallery-item img {
+    width: 100%;
+    height: 16rem; /* Tailwind h-64 */
+    object-fit: cover;
+  }
+  
+  #gallery .gallery-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    padding-top: 5rem; /* Tailwind py-20 */
+    padding-bottom: 5rem; /* Tailwind py-20 */
+    background-color: #ffffff; /* Tailwind bg-white */
+  }
+  
+  #contact h2 {
+    font-size: 1.875rem; /* Tailwind text-3xl */
+    font-weight: 700; /* Tailwind font-bold */
+    margin-bottom: 3rem; /* Tailwind mb-12 */
+  }
+  
+  #contact form {
+    max-width: 48rem; /* Tailwind max-w-3xl */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #contact label {
+    display: block;
+    margin-bottom: 0.5rem; /* Tailwind mb-2 */
+    font-weight: 500; /* Tailwind font-medium */
+  }
+  
+  #contact input, #contact textarea {
+    width: 100%;
+    padding: 0.5rem; /* Tailwind p-2 */
+    border: 1px solid #e5e7eb; /* Tailwind border */
+    border-radius: 0.375rem; /* Tailwind rounded */
+  }
+  
+  #contact textarea {
+    resize: vertical;
+  }
+  
+  #contact button {
+    background: linear-gradient(135deg, #70c218, #05836e); /* Gradient from dark green to teal */
+    color: #ffffff; /* Tailwind text-white */
+    padding: 0.75rem 1.5rem; /* Tailwind px-6 py-3 */
+    border-radius: 9999px; /* Tailwind rounded-full */
+    font-size: 1.125rem; /* Tailwind text-lg */
+    font-weight: 600; /* Tailwind font-semibold */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  #contact button:hover {
+    background-color: #059669; /* Tailwind hover:bg-green-600 */
+    transform: scale(1.05);
+  }
+  
+  #contact button:active {
+    transform: scale(0.95);
+  }
+  
+
+
+  /* Footer Styles */
+footer {
+  background: linear-gradient(135deg, #70c218, #05836e); /* Gradient from dark green to teal */
+  color: #ffffff; /* Tailwind text-white */
+  padding-top: 2rem; /* Tailwind py-8 */
+  padding-bottom: 2rem; /* Tailwind py-8 */
+}
+
+footer .container {
+  max-width: 80rem; /* Tailwind container mx-auto */
+  padding-left: 1rem; /* Tailwind px-4 */
+  padding-right: 1rem; /* Tailwind px-4 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .flex {
+  display: flex;
+  flex-wrap: wrap; /* Tailwind flex-wrap */
+  justify-content: space-between; /* Tailwind justify-between */
+}
+
+footer .w-full {
+  width: 100%; /* Tailwind w-full */
+}
+
+footer .md\:w-1\/4 {
+  width: 25%; /* Tailwind md:w-1/4 */
+}
+
+footer .mb-6 {
+  margin-bottom: 1.5rem; /* Tailwind mb-6 */
+}
+
+footer .md\:mb-0 {
+  margin-bottom: 0; /* Tailwind md:mb-0 */
+}
+
+footer h3 {
+  font-size: 1.25rem; /* Tailwind text-xl */
+  font-weight: 600; /* Tailwind font-semibold */
+  margin-bottom: 1rem; /* Tailwind mb-4 */
+}
+
+footer h4 {
+  font-size: 1.125rem; /* Tailwind text-lg */
+  font-weight: 600; /* Tailwind font-semibold */
+  margin-bottom: 1rem; /* Tailwind mb-4 */
+}
+
+footer .text-sm {
+  font-size: 0.875rem; /* Tailwind text-sm */
+}
+
+footer .space-y-2 > * + * {
+  margin-top: 0.5rem; /* Tailwind space-y-2 */
+}
+
+footer a {
+  color: #d1fae5; /* Tailwind text-green-300 */
+  text-decoration: none; /* Tailwind link styling */
+}
+
+footer a:hover {
+  color: #a7f3d0; /* Tailwind text-green-200 */
+}
+
+footer .flex .space-x-4 > * + * {
+  margin-left: 1rem; /* Tailwind space-x-4 */
+}
+
+footer .text-center {
+  text-align: center; /* Tailwind text-center */
+}
+
+footer .mt-8 {
+  margin-top: 2rem; /* Tailwind mt-8 */
+}
